@@ -1,0 +1,16 @@
+import random
+
+player = 200
+player1 = 60
+player2 = 70
+
+while player > 0:
+  dmg = random.randrange(player1, player2)
+  player = player - dmg
+
+  if player <=30:
+     player = 30
+
+print("Enemy strikes for", dmg, "points of damage. Current is", player)
+
+

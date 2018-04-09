@@ -1,4 +1,4 @@
-import random
+
 class enemy:
     player1 = 60
     player3 = 70
